@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MyForm from './Form';
 
 const UserForm = () => {
-  const[addUser,setaddUser]=useState(true);
-  const [userName, setUserName] = useState('');
-  const [isEditMode, setIsEditMode] = useState(false);
+  // const[addUser,setaddUser]=useState(true);
+  // const [userName, setUserName] = useState('');
+  // const [isEditMode, setIsEditMode] = useState(false);
 
 
 
-  const handleEditUser = () => {
-    // Edit user logic here (e.g., send updated data to the server, update state, etc.)
-    console.log(`User edited: ${userName}`);
-    setUserName(''); // Clear the input field
-    setIsEditMode(false); // Exit edit mode
-  };
+  // const handleEditUser = () => {
+  //   // Edit user logic here (e.g., send updated data to the server, update state, etc.)
+  //   console.log(`User edited: ${userName}`);
+  //   setUserName(''); // Clear the input field
+  //   setIsEditMode(false); // Exit edit mode
+  // };
 
   return (
     <div style={{marginTop:30}}className="container">
